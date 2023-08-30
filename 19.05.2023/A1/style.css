@@ -1,0 +1,17 @@
+/*  */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+/* HEADER Settings */
+header {
+    border-bottom: 1px solid black;
+}
+
+/* FOOTER Settings */
+footer {
+    border-top: 1px solid black;
+}

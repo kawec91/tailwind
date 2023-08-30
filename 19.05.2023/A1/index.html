@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Settings | Einstellungen -->
+  <head>
+    <!-- Character Set | Zeichensatz -->
+    <meta charset="UTF-8" />
+    <!-- Mobile Devices Settings for IE | Mobiles Gerät Darstellungsoptimierung speziell für Microsoft IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Mobile Devices Settings | Mobiles Gerät Darstellungsoptimierung -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- General CSS settings | Allgemeiner CSS-Code -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- CSS for small Screens | CSS-Code speziell für kleine Bildschirme (Handy, Tablet) -->
+    <link rel="stylesheet" href="mobile.css" />
+    <!-- CSS for big Screens| CSS-Code speziell für große Bildschirme (PC, Mac) -->
+    <link rel="stylesheet" href="desktop.css" />
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!--Title | Titel der Seite -->
+    <title>Document</title>
+  </head>
+  <!-- Body | Inhaltbereich -->
+  <body>
+    <!-- Header | Kopfzeile -->
+    <header
+      class="flex flex-col sm:flex-row sm:justify-between sm:px-2 lg:px-12 py-5 items-center"
+    >
+      <!--Logo-->
+      <img src="./assets/img/logo.png" alt="" />
+      <!--Menu Box-->
+      <div>
+        <!--Menu List-->
+        <ul class="flex flex-col gap-2 sm:flex-row sm:gap-5 text-center my-2">
+          <!--Menu Item-->
+          <li class="py-1 px-5 hover:bg-blue-500 rounded-full hover:text-white">
+            Startsite
+          </li>
+          <!--Menu Item-->
+          <li class="py-1 px-5 hover:bg-blue-500 rounded-full hover:text-white">
+            Kontakt
+          </li>
+          <!--Menu Item-->
+          <li class="py-1 px-5 hover:bg-blue-500 rounded-full hover:text-white">
+            Produkt
+          </li>
+        </ul>
+      </div>
+      <!--Button-->
+      <button
+        class="rounded-full bg-blue-500 hover:bg-blue-700 active:bg-blue-900 py-1 px-5 text-white"
+      >
+        <!--Button Name-->
+        Login
+      </button>
+    </header>
+    <!-- Main | Inhalt -->
+    <main class="px-2 sm:px-4 lg:px-12 py-2">
+      <!--Card Section-->
+      <section class="grid grid-cols-1 md:grid-cols-2 gap-3">
+        <!--Card-->
+        <div class="flex max-w-screen-sm border-2 border-solid border-black">
+          <!--Image-->
+          <img
+            src="https://i0.wp.com/theluxurytravelexpert.com/wp-content/uploads/2022/11/four-seasons-bora-bora-1.jpg?ssl=1"
+            alt=""
+            class="w-2/4 object-cover"
+          />
+          <!--Content-->
+          <div class="px-2 py-2">
+            <!--Title-->
+            <h3 class="text-2xl text-center my-5">Title</h3>
+            <!--Text-->
+            <p class="text-center py-2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+              voluptatem quae, molestias tempora voluptatibus nisi.
+            </p>
+            <div class="text-right mt-10">
+              <!--Button-->
+              <button
+                class="rounded-full bg-blue-500 hover:bg-blue-700 py-1 px-5 text-white"
+              >
+                <!--Button Name-->
+                Read more
+              </button>
+            </div>
+          </div>
+        </div>
+        <!--End Card-->
+        <!--Card-->
+        <div class="flex max-w-screen-sm border-2 border-solid border-black">
+          <!--Image-->
+          <img
+            src="https://www.hollywoodreporter.com/wp-content/uploads/2023/03/Tahiti-TAHAA-AERIAL-H-2023.jpg?w=1296"
+            alt=""
+            class="w-2/4 object-cover"
+          />
+          <!--Content-->
+          <div class="px-2 py-2">
+            <!--Title-->
+            <h3 class="text-2xl text-center my-5">Title</h3>
+            <!--Text-->
+            <p class="text-center py-2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+              voluptatem quae, molestias tempora voluptatibus nisi.
+            </p>
+            <div class="text-right mt-10">
+              <!--Button-->
+              <button
+                class="rounded-full bg-blue-500 hover:bg-blue-700 py-1 px-5 text-white"
+              >
+                <!--Button Name-->
+                Read more
+              </button>
+            </div>
+          </div>
+        </div>
+        <!--End Card-->
+        <!--Card-->
+        <div class="flex max-w-screen-sm border-2 border-solid border-black">
+          <!--Image-->
+          <img
+            src="https://media.nomadicmatt.com/polynesiaguide.jpg"
+            alt=""
+            class="w-2/4 object-cover"
+          />
+          <!--Content-->
+          <div class="px-2 py-2">
+            <!--Title-->
+            <h3 class="text-2xl text-center my-5">Title</h3>
+            <!--Text-->
+            <p class="text-center py-2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+              voluptatem quae, molestias tempora voluptatibus nisi.
+            </p>
+            <div class="text-right mt-10">
+              <!--Button-->
+              <button
+                class="rounded-full bg-blue-500 hover:bg-blue-700 py-1 px-5 text-white"
+              >
+                <!--Button Name-->
+                Read more
+              </button>
+            </div>
+          </div>
+        </div>
+        <!--End Card-->
+      </section>
+      <!--End Section Card-->
+      <!--Section Produkt-->
+      <section class="border-2 border-solid border-black my-2 py-2 px-2">
+        <!--Section Title-->
+        <h3 class="text-2xl mb-2">Produkt Karte</h3>
+        <!--Produkt Liste-->
+        <div class="flex flex-col gap-2">
+          <!--Card-->
+          <div
+            class="flex flex-col md:flex-row min-w-full border-2 border-solid border-black"
+          >
+            <!--Image-->
+            <img
+              src="https://i0.wp.com/theluxurytravelexpert.com/wp-content/uploads/2022/11/four-seasons-bora-bora-1.jpg?ssl=1"
+              alt=""
+              class="md:w-1/4 object-cover"
+            />
+            <!--Content-->
+            <div class="px-2 py-2 md:w-3/4">
+              <!--Title-->
+              <h3 class="text-2xl text-left my-5">Produkt:</h3>
+              <!--Text-->
+              <p class="text-left py-2">Kosten:</p>
+              <div class="text-right mt-10">
+                <!--Button-->
+                <button
+                  class="rounded-full bg-blue-500 hover:bg-blue-700 py-1 px-5 text-white"
+                >
+                  <!--Button Name-->
+                  Read more
+                </button>
+              </div>
+            </div>
+          </div>
+          <!--End Card-->
+          <!--Card-->
+          <div
+            class="flex flex-col md:flex-row min-w-full border-2 border-solid border-black"
+          >
+            <!--Image-->
+            <img
+              src="https://i0.wp.com/theluxurytravelexpert.com/wp-content/uploads/2022/11/four-seasons-bora-bora-1.jpg?ssl=1"
+              alt=""
+              class="md:w-1/4 object-cover"
+            />
+            <!--Content-->
+            <div class="px-2 py-2 md:w-3/4">
+              <!--Title-->
+              <h3 class="text-2xl text-left my-5">Produkt:</h3>
+              <!--Text-->
+              <p class="text-left py-2">Kosten:</p>
+              <div class="text-right mt-10">
+                <!--Button-->
+                <button
+                  class="rounded-full bg-blue-500 hover:bg-blue-700 py-1 px-5 text-white"
+                >
+                  <!--Button Name-->
+                  Read more
+                </button>
+              </div>
+            </div>
+          </div>
+          <!--End Card-->
+          <!--Card-->
+          <div
+            class="flex flex-col md:flex-row min-w-full border-2 border-solid border-black"
+          >
+            <!--Image-->
+            <img
+              src="https://i0.wp.com/theluxurytravelexpert.com/wp-content/uploads/2022/11/four-seasons-bora-bora-1.jpg?ssl=1"
+              alt=""
+              class="md:w-1/4 object-cover"
+            />
+            <!--Content-->
+            <div class="px-2 py-2 md:w-3/4">
+              <!--Title-->
+              <h3 class="text-2xl text-left my-5">Produkt:</h3>
+              <!--Text-->
+              <p class="text-left py-2">Kosten:</p>
+              <div class="text-right mt-10">
+                <!--Button-->
+                <button
+                  class="rounded-full bg-blue-500 hover:bg-blue-700 py-1 px-5 text-white"
+                >
+                  <!--Button Name-->
+                  Read more
+                </button>
+              </div>
+            </div>
+          </div>
+          <!--End Card-->
+        </div>
+        <!--Button Box-->
+        <div class="text-center mt-5">
+          <!--Button-->
+          <button
+            class="rounded-full bg-blue-500 hover:bg-blue-700 py-1 px-5 text-white md:w-96"
+          >
+            <!--Button Name-->
+            Kaufen
+          </button>
+        </div>
+      </section>
+      <!--Table-->
+      <table class="table-auto min-w-full">
+        <!--Table Head-->
+        <thead class="bg-blue-900 text-white text-center">
+          <!--Table ROW-->
+          <tr>
+            <!--Table Header Name-->
+            <td
+              class="border-r-2 border-solid border-blue-500 px-2 font-bold p-3"
+            >
+              <!--Text-->
+              Produkt
+            </td>
+            <!--Table Header Name-->
+            <td
+              class="border-r-2 border-solid border-blue-500 px-2 font-bold p-3"
+            >
+              <!--Text-->
+              Farben
+            </td>
+            <!--Table Header Name-->
+            <td
+              class="border-r-2 border-solid border-blue-500 px-2 font-bold p-3"
+            >
+              <!--Text-->
+              Kosten
+            </td>
+            <!--Table Header Name-->
+            <td class="font-bold p-3">
+              <!--Text-->
+              Menge
+            </td>
+          </tr>
+          <!--End of Table ROW-->
+        </thead>
+        <!--End of Table Head-->
+        <!--Table Body-->
+        <tbody>
+          <!--First Row-->
+          <tr class="bg-gray-100 text-center">
+            <!--Product 1 Name-->
+            <td class="p-3">
+              <!--Text-->
+              Name der produkt-1
+            </td>
+            <!--Product 1 Colors-->
+            <td class="p-3">
+              <!--Text-->
+              farbe der produkt-1
+            </td>
+            <!--Product 1 Price-->
+            <td class="p-3">
+              <!--Text-->
+              Kosten der produkt-1
+            </td>
+            <!--Product 1 Amount-->
+            <td class="p-3">
+              <!--Text-->
+              Menge der produkt-1
+            </td>
+          </tr>
+          <!--Secound Row-->
+          <tr class="bg-gray-300 text-center">
+            <!--Product 2 Name-->
+            <td class="p-3">
+              <!--Text-->
+              Name der produkt-2
+            </td>
+            <!--Product 2 Colors-->
+            <td class="p-3">
+              <!--Text-->
+              farbe der produkt-2
+            </td>
+            <!--Product 2 Price-->
+            <td class="p-3">
+              <!--Text-->
+              Kosten der produkt-2
+            </td>
+            <!--Product 2 Amount-->
+            <td class="p-3">
+              <!--Text-->
+              Menge der produkt-2
+            </td>
+          </tr>
+          <!--Third Row-->
+          <tr class="bg-gray-100 text-center">
+            <!--Product 3 Name-->
+            <td class="p-3">
+              <!--Text-->
+              Name der produkt-3
+            </td>
+            <!--Product 3 Colors-->
+            <td class="p-3">
+              <!--Text-->
+              farbe der produkt-3
+            </td>
+            <!--Product 3 Price-->
+            <td class="p-3">
+              <!--Text-->
+              Kosten der produkt-3
+            </td>
+            <!--Product 3 Amount-->
+            <td class="p-3">
+              <!--Text-->
+              Menge der produkt-3
+            </td>
+          </tr>
+          <!--Fourth Row-->
+          <tr class="bg-gray-300 text-center">
+            <!--Product 4 Name-->
+            <td class="p-3">
+              <!--Text-->
+              Name der produkt-4
+            </td>
+            <!--Product 4 Colors-->
+            <td class="p-3">
+              <!--Text-->
+              farbe der produkt-4
+            </td>
+            <!--Product 4 Price-->
+            <td class="p-3">
+              <!--Text-->
+              Kosten der produkt-4
+            </td>
+            <!--Product 4 Amount-->
+            <td class="p-3">
+              <!--Text-->
+              Menge der produkt-4
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <!--Kontakt Section-->
+      <section class="md:flex md:justify-center my-10">
+        <!--Form-->
+        <form class="grid grid-cols-1 md:grid-cols-2 gap-3 md:w-1/2">
+          <!--MailBox-->
+          <div class="md:col-span-2 p-2 flex flex-col">
+            <!--Email-->
+            <label for="mail" class="mr-3">Email:</label>
+            <!--Input-->
+            <input
+              type="email"
+              name="email"
+              id="mail"
+              class="border-2 rounded-md border-blue-400 p-2 focus:ring-2 focus:ring-blue-500 focus:outline-none min-w-full hover:shadow-md"
+              placeholder="example@email.com"
+            />
+          </div>
+          <!--NameBox-->
+          <div class="p-2 flex flex-col">
+            <!--Name-->
+            <label for="name">Name</label>
+            <!--Input-->
+            <input
+              type="text"
+              name="name"
+              id="y_name"
+              class="border-2 rounded-md border-blue-400 p-2 focus:ring-2 focus:ring-blue-500 focus:outline-none min-w-full hover:shadow-md"
+              placeholder="Your Name"
+            />
+          </div>
+          <!--SurnameBox-->
+          <div class="p-2 flex flex-col">
+            <!--SurName-->
+            <label for="ys_name">Surname</label>
+            <!--Input-->
+            <input
+              type="text"
+              name="surname"
+              id="ys_name"
+              class="border-2 rounded-md border-blue-400 p-2 focus:ring-2 focus:ring-blue-500 focus:outline-none min-w-full hover:shadow-md"
+              placeholder="Your Surname"
+            />
+          </div>
+          <!--TextFieldBox-->
+          <div class="p-2 md:col-span-2 flex flex-col">
+            <!--TextArea-->
+            <label for="text-area text-left">Message:</label>
+            <!--Input-->
+            <textarea
+              name="text"
+              id="text-area"
+              cols="30"
+              rows="10"
+              class="border-2 rounded-md border-blue-400 p-2 focus:ring-2 focus:ring-blue-500 focus:outline-none min-w-full hover:shadow-md"
+              placeholder="Text..."
+            ></textarea>
+          </div>
+          <!--CheckBoxContainer-->
+          <div class="p-2 md:col-span-2 flex justify-center items-center">
+            <!--CheckBox-->
+            <label for="check-box" class="mr-2">I'm not a Robot:</label>
+            <!--Input-->
+            <input
+              type="checkbox"
+              id="check-box"
+              class="h-5 w-5 rounded-md hover:shadow-md"
+            />
+          </div>
+          <!--ButtonBox-->
+          <div class="p-2 md:col-span-2 flex justify-center">
+            <!--Button-->
+            <button
+              class="bg-blue-500 hover:bg-blue-700 active:bg-blue-900 text-white px-4 py-2 rounded-md"
+            >
+              <!--Text-->
+              Submit
+            </button>
+          </div>
+        </form>
+      </section>
+    </main>
+    <!-- Footer | Fußzeile -->
+    <footer class="flex justify-center sm:justify-between px-12 flex-wrap">
+      <!--Copy-->
+      <p>
+        <!--Copy Icon-->
+        &copy;
+        <!--Copy Text-->
+        2023. All Rights Reserved.
+      </p>
+      <!--Table-->
+      <table class="table-auto">
+        <!--Table Body-->
+        <tbody>
+          <!--Table Row-->
+          <tr class="flex gap-3">
+            <!--Table Item 1-->
+            <td>
+              <!--Table Item A-Element-->
+              <a href="#" class="font-bold hover:text-blue-400">
+                <!--Name-->
+                Kontakt</a
+              >
+            </td>
+            <!--Table Item 2-->
+            <td>
+              <!--Table Item A-Element-->
+              <a href="#" class="font-bold hover:text-blue-400">
+                <!--Name-->
+                Über uns</a
+              >
+            </td>
+            <!--Table Item 3-->
+            <td>
+              <!--Table Item A-Element-->
+              <a href="#" class="font-bold hover:text-blue-400">
+                <!--Name-->
+                Impressum</a
+              >
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </footer>
+  </body>
+</html>

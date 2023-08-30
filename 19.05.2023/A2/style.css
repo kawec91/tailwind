@@ -1,0 +1,21 @@
+/*  */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* NAV Settings */
+nav {}
+
+/* HEADER Settings */
+header {
+    border-bottom: 1px solid black;
+}
+
+/* MAIN Settings */
+main {}
+
+/* FOOTER Settings */
+footer {
+    border-top: 1px solid black;
+}
